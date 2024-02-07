@@ -557,7 +557,7 @@ body {
 }
 
 .h-75 {
-    height: 75vh;
+    height: 75vh !important;
 }
 
 .pos_3 {
