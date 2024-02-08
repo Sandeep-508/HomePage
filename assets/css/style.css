@@ -587,16 +587,16 @@ body {
     left: 80%;
 }
 
-.pos_change_1 {
+/* .pos_change_1 {
     left: 50%;
     transform: translateX(-50%);
 }
 
 .pos_change_2 {
     top: 204px;
-}
+} */
 
-.h-200vh {
+/* .h-200vh {
     height: 200vh;
 }
 
@@ -604,9 +604,9 @@ body {
     .h-200vh {
         height: 250vh;
     }
-}
+} */
 
-.top-500 {
+/* .top-500 {
     top: 500px;
 }
 
@@ -628,4 +628,11 @@ body {
 
 .pos_6_change {
     top: 1200px;
-}
+} */
+
+
+/*  position-absolute pos_change_2 w-100 */
+
+/* h-200vh */
+
+/* position-absolute pos_change_1 */
