@@ -311,11 +311,16 @@ body {
     position: absolute;
     width: 6px;
     background-color: red;
-    top: 15px;
-    bottom: 230px;
+    top: 2%;
+    bottom: 30%;
     left: 50%;
     margin-left: -3px;
 }
+
+.accordion-button:not(.collapsed) {
+    color: black;
+}
+
 
 /* Container around content */
 .container_t {
@@ -323,6 +328,16 @@ body {
     position: relative;
     background-color: inherit;
     width: 50%;
+}
+
+@media (min-width: 576px) {
+    .accordion-button::after {
+        margin-left: 229px;
+    }
+}
+
+.change_width {
+    max-width: 800px;
 }
 
 /* The circles on the timeline */
@@ -333,7 +348,7 @@ body {
     height: 25px;
     right: -13px;
     background-color: white;
-    border: 1px solid #FF9F55;
+    border: none;
     top: 15px;
     border-radius: 50%;
     z-index: 1;
@@ -342,6 +357,10 @@ body {
 /* Place the container to the left */
 .left {
     left: 0;
+}
+
+.mt_ch {
+    margin-top: 1.5rem;
 }
 
 /* Place the container to the right */
@@ -515,9 +534,9 @@ body {
 } */
 
 
-.mx-width {
+/* .mx-width {
     max-width: 500px;
-}
+} */
 
 
 
