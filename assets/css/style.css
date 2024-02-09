@@ -307,7 +307,7 @@ body {
     margin: 0 auto;
 }
 
-@media (min-width: 576px) and (max-width: 768px) {
+/* @media (min-width: 576px) and (max-width: 768px) {
     .timeline::after {
         bottom: 23% !important;
     }
@@ -317,7 +317,7 @@ body {
     .timeline::after {
         bottom: 25% !important;
     }
-}
+} */
 
 /* The actual timeline (the vertical ruler) */
 .timeline::after {
@@ -325,16 +325,16 @@ body {
     position: absolute;
     width: 6px;
     background-color: red;
-    top: 2%;
-    bottom: 0;
+    top: 19px;
+    bottom: -19px;
     left: 50%;
     margin-left: -3px;
 }
 
 @media (max-width: 576px) {
-    .timeline::after {
+    /* .timeline::after {
         bottom: 25%;
-    }
+    } */
 
     .random {
         font-size: 14px;
@@ -366,7 +366,7 @@ body {
 
 @media (min-width: 576px) {
     .accordion-button::after {
-        margin-left: 229px;
+        margin-left: 232px;
     }
 
 
@@ -378,7 +378,7 @@ body {
     --bs-accordion-border-color: none !important;
 }
 
-@media (min-width: 1200px) {
+/* @media (min-width: 1200px) {
     .timeline::after {
         bottom: 23% !important;
     }
@@ -388,7 +388,7 @@ body {
     .timeline::after {
         bottom: 26% !important;
     }
-}
+} */
 
 /* @media (max-width: 375.9px) {
     .timeline::after {
@@ -431,6 +431,13 @@ body {
 .right {
     left: 50%;
 }
+
+/* .timeline {
+    position: relative;
+    max-width: 800px;
+    margin: 20px auto;
+} */
+
 
 /* Add arrows to the left container (pointing right) */
 /* .left::before {
