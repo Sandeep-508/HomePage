@@ -61,8 +61,10 @@
 
 @media (max-width: 1200px) {
     label[for="menuicon"] {
-        width: 50px;
-        height: 50px;
+        position: relative;
+        top: 12px;
+        width: 40px;
+        height: 30px;
         display: flex;
         justify-content: space-between;
         flex-direction: column;
@@ -305,6 +307,18 @@ body {
     margin: 0 auto;
 }
 
+@media (min-width: 576px) and (max-width: 768px) {
+    .timeline::after {
+        bottom: 29% !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .timeline::after {
+        bottom: 28% !important;
+    }
+}
+
 /* The actual timeline (the vertical ruler) */
 .timeline::after {
     content: '';
@@ -312,9 +326,23 @@ body {
     width: 6px;
     background-color: red;
     top: 2%;
-    bottom: 29%;
+    bottom: 0;
     left: 50%;
     margin-left: -3px;
+}
+
+@media (max-width: 576px) {
+    .timeline::after {
+        bottom: 28%;
+    }
+
+    .random {
+        font-size: 14px;
+    }
+
+    .ques {
+        font-size: 14px;
+    }
 }
 
 @media (max-width: 992px) {
@@ -353,6 +381,12 @@ body {
 @media (min-width: 1200px) {
     .timeline::after {
         bottom: 26% !important;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .timeline::after {
+        bottom: 29% !important;
     }
 }
 
