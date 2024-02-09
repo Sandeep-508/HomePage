@@ -257,7 +257,7 @@
 }
 
 .box {
-    padding: 27px 23px 27px 23px;
+    /* padding: 27px 23px 27px 23px; */
     border-radius: 10px;
     background-color: white;
 }
@@ -309,13 +309,13 @@ body {
 
 @media (min-width: 576px) and (max-width: 768px) {
     .timeline::after {
-        bottom: 29% !important;
+        bottom: 23% !important;
     }
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
     .timeline::after {
-        bottom: 28% !important;
+        bottom: 25% !important;
     }
 }
 
@@ -333,7 +333,7 @@ body {
 
 @media (max-width: 576px) {
     .timeline::after {
-        bottom: 28%;
+        bottom: 25%;
     }
 
     .random {
@@ -380,21 +380,21 @@ body {
 
 @media (min-width: 1200px) {
     .timeline::after {
-        bottom: 26% !important;
+        bottom: 23% !important;
     }
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
     .timeline::after {
-        bottom: 29% !important;
+        bottom: 26% !important;
     }
 }
 
-@media (max-width: 375.9px) {
+/* @media (max-width: 375.9px) {
     .timeline::after {
         bottom: 33%;
     }
-}
+} */
 
 .accordion-item {
     margin-bottom: 10px;
